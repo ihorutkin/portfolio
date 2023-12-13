@@ -11,17 +11,12 @@ export default function Main(){
                     My name is Ihor Utkin!
                 </h2>
                 <h2 className="title-frontend">
-                Jestem programistem front-end z 3 letnim doświadczeniem, z nich
-                półtorarocznym doświadczeniem komercyjnym. Potrafię tworzyć strony
-                internetowe i aplikacje internetowe zarówno w zwykłym JS jak i w jego
-                frameworkach takich jak React.js i Next.js, współpracować z menadżerem
-                stanu Redux, posiadam umiejętność pracy z bazami danych z
-                wykorzystaniem SQL. Spośród wszystkich moich zalet mogę wyrażnie
-                podkreślic chęć i szybkość uczenia się nowych rzeczy ta łatwa praca w
-                kolektywie
-
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos nobis possimus earum excepturi perspiciatis consectetur, voluptas animi porro minima.
                 </h2>
             </article>
+            <div className="see-more-btn">
+                <i className="fa-solid fa-arrow-down main-btn"></i>
+            </div>
         </section>
     )
 }
