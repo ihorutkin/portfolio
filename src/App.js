@@ -1,17 +1,37 @@
 import './App.css';
-import Main from './topics/main';
-import Work from './topics/works';
-import Headers from './topics/header';
-import Aside from './topics/social-media';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainPage from './pages/mainPage';
+import Layout from './pages/layouts';
+import Games from './pages/games';
+import Apps from './pages/apps';
+
 
 function App() {
   return (
-    <div>
-      <Headers />
-      <Aside />
-      <Main />
-      <Work />
-    </div>
+    <Router>
+      <div>
+        <div>
+          <Routes>
+            <Route 
+              path='/'
+              element={<MainPage />}
+            />
+            <Route 
+              path='/layout'
+              element={<Layout />}
+            />
+            <Route 
+              path='/game'
+              element={<Games />}
+            />
+            <Route 
+              path='/app'
+              element={<Apps />}
+            />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

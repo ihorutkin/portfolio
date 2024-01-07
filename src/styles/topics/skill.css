@@ -1,0 +1,6 @@
+.skill{
+    flex-basis: 22%;
+    min-width: 200px;
+    padding: 1rem .0;
+    font-size: 18px;
+}
