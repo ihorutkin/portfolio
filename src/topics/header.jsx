@@ -5,9 +5,11 @@ export default function Headers(){
     return (
         <header className="header">
             <nav className="navigation">
-                <a link="" className="link">about</a>
-                <a link="" className="link">projects</a>
-                <a link="" className="link">contact</a>
+                <a href="#about" className="link">about</a>   
+                <a href="#service" className="link">service</a>
+                <a href="#skills" className="link">skills</a>
+                <a href="#projects" className="link">projects</a>
+                <a href="#contact" className="link">contact</a>
             </nav>
         </header>
     )

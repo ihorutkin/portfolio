@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/components/service.css"
+import "../../styles/components/service.css"
 // import photo1 from "../media/work1.jpg"
 
 export default function Work(){
     return (
-        <section className="service_container">
+        <section className="service_container" id="service">
             <div className="service">
             <h2 className="service_title">What can I do</h2>
             <div className="service_text">Short list of my proffessional skills</div>

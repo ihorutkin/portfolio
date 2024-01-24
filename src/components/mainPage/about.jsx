@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/components/about.css"
+import "../../styles/components/about.css"
 
 export default function About(){
     return(
-        <section className="about-container">
+        <section className="about-container" id="about">
             <div className="about">
                 <article className="title_block">
                     <h2 className="title">About me</h2>

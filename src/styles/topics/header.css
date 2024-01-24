@@ -7,7 +7,7 @@
 
 .navigation{
     position: relative;
-    width: 400px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
     right: 1px;
@@ -15,6 +15,7 @@
 }
 
 .link{
+    text-decoration: none;
     color: #e5e5e5;
     font-size: 16px;
     font-weight: normal;

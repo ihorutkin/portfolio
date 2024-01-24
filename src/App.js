@@ -9,8 +9,6 @@ import Apps from './pages/apps';
 function App() {
   return (
     <Router>
-      <div>
-        <div>
           <Routes>
             <Route 
               path='/'
@@ -29,8 +27,6 @@ function App() {
               element={<Apps />}
             />
           </Routes>
-        </div>
-      </div>
     </Router>
   );
 }

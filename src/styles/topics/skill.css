@@ -3,4 +3,9 @@
     min-width: 200px;
     padding: 1rem .0;
     font-size: 18px;
+    color: #2c2c2c;
+}
+
+.skill:hover{
+    color: #000;
 }
