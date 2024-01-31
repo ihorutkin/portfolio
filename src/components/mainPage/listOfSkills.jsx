@@ -1,6 +1,6 @@
 import React from "react";
 import Skill from "../../topics/skill";
-import '../../styles/components/listOfSkills.css'
+import '../../styles/components/mainPage/listOfSkills.css'
 
 export default function ListOfSkills(){
     let skills = ['JavaScript', 'Node.js', 'React', 'Next.js', 'Redux', 'TypeScript', 'Chart.js', 'i18n', 'Tailwind', 'HTML', 'CSS', 'SCSS', 'LESS', 'SASS', 'Bootstrap', 'Linux', 'Docker', 'CI/CD', 'SQL', 'Rest API', 'Webpack', 'Git', 'unit testing', 'Statistics']

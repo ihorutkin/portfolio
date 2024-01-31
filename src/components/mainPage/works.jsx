@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/components/works.css'
+import '../../styles/components/mainPage/works.css'
 
 export default function Works(){
     return (

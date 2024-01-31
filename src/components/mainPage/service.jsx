@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/components/service.css"
+import "../../styles/components/mainPage/service.css"
 // import photo1 from "../media/work1.jpg"
 
 export default function Work(){

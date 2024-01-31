@@ -54,17 +54,17 @@
 }
 
 .first{
-    background-image: url('../../media/layout.jpg');
+    background-image: url('../../../media/layout.jpg');
     background-size: cover;
 }
 
 .second{
-    background-image: url('../../media/app.jpg');
+    background-image: url('../../../media/app.jpg');
     background-size: cover;
 }
 
 .third{
-    background-image: url('../../media/game.jpg');
+    background-image: url('../../../media/game.jpg');
     background-size: cover;
 }
 
