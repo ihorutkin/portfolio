@@ -1,0 +1,165 @@
+{
+    "main_page": {
+      "greetings": "Мене звуть Ігор Уткін!",
+      "navigation": {
+        "about": "про мене",
+        "service": "послуги",
+        "skills": "навички",
+        "projects": "проекти",
+        "contact": "контакт"
+      },
+      "about": {
+        "title": "Про мене",
+        "descriptions": {
+          "descriptions_title": "про мене",
+          "descriptions_text": "Я молодий та перспективний фронтенд-розробник із 2-річним комерційним досвідом"
+        },
+        "education": {
+          "education_title": "Освіта",
+          "education_item_1": {
+            "title": "СПЕЦІАЛІЗОВАНИЙ КОЛЕДЖ НАЦІОНАЛЬНОГО АВІАЦІЙНОГО УНІВЕРСИТЕТУ 'ВАСИЛЬКІВ'",
+            "faculty": "Факультет:",
+            "faculty_text": " Розробка програмного забезпечення",
+            "text": "Під час навчання працював із мовами програмування C++ та C#, проходив курси вищої математики, аналітичної математики, диференціальних рівнянь, лінійної алгебри, дискретної математики та теорії ймовірностей"
+          },
+          "education_item_2": {
+            "title": "УНІВЕРСИТЕТ АНДЖЕЯ ФРИЧА МОДЖЕВСЬКОГО У КРАКОВІ",
+            "faculty": "Факультет:",
+            "faculty_text": " Кібербезпека",
+            "text": "Під час навчання пройшов курси програмування на мовах php, C++ та Java, вивчав роботу з базами даних за допомогою SQL та роботу зі статистикою даних в R"
+          }
+        },
+        "achievement": {
+          "title": "Мої досягнення",
+          "text": "Я став серед 30 переможців із 8 600 учасників Всеукраїнського конкурсу 'Авіатор'"
+        }
+      },
+      "service": {
+        "title": "Що я вмію",
+        "text": "Короткий перелік моїх професійних навичок",
+        "services": {
+          "service_item_1": {
+            "title": "Адаптивні веб-сайти",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          },
+          "service_item_2": {
+            "title": "Адаптивні веб-сайти",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          },
+          "service_item_3": {
+            "title": "PWA",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          },
+          "service_item_4": {
+            "title": "Бекенд",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          },
+          "service_item_5": {
+            "title": "DevOps",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          },
+          "service_item_6": {
+            "title": "Тестування",
+            "text": "Я можу створювати адаптивні веб-сайти"
+          }
+        }
+      },
+      "skills": {
+        "title": "Список навичок",
+        "text": "Це список моїх навичок"
+      },
+      "projects": {
+        "title": "Мої проекти",
+        "text": "Це список моїх особистих проектів",
+        "project": {
+          "type_1": {
+            "title": "Макети",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Перейти до проектів"
+          },
+          "type_2": {
+            "title": "Додатки",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Перейти до проектів"
+          },
+          "type_3": {
+            "title": "Ігри",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Перейти до проектів"
+          }
+        }
+      },
+      "contact": {
+        "title": "Контакти",
+        "text": "Будьмо на зв'язку",
+        "fields": {
+          "name": "Ім'я",
+          "surname": "Прізвище",
+          "email": "Електронна пошта",
+          "subject": "Тема",
+          "text": "Ваше повідомлення...",
+          "button": "Надіслати"
+        }
+      },
+      "footer": {
+        "title_name": "ІГОР",
+        "title_surname": "УТКІН",
+        "contact_info": {
+          "title": "КОНТАКТНА ІНФОРМАЦІЯ",
+          "tel": "тел:",
+          "email": "email:"
+        }
+      }
+    },
+    "projects_links": {
+      "home": "Головна",
+      "layout": "Макети",
+      "game": "Ігри",
+      "app": "Додатки"
+    },
+    "projects_button": {
+      "visit_site": "Відвідати сайт",
+      "github": "Переглянути на GitHub",
+      "description": "Опис"
+    },
+    "layout_page": {
+      "project_names": {
+        "project_1": "Бургер",
+        "project_2": "Кава",
+        "project_3": "Комп'ютер",
+        "project_4": "Спорт",
+        "project_5": "Подорож",
+        "project_6": "Ресторан"
+      },
+      "project_description": {
+        "project_1": "Це макет ресторану бургерів",
+        "project_2": "Це макет інтернет-магазину кави",
+        "project_3": "Це макет інтернет-магазину комп'ютерів",
+        "project_4": "Це макет інтернет-магазину комп'ютерів",
+        "project_5": "Це макет інтернет-магазину для подорожей",
+        "project_6": "Це макет ресторану"
+      }
+    },
+    "game_page": {
+      "project_names": {
+        "project_1": "2048",
+        "project_2": "Крестики-нолики"
+      },
+      "project_description": {
+        "project_1": "Це гра 2048, написана на чистому JavaScript. Вам потрібно натискати стрілки вниз, вгору, вліво та вправо, щоб замінювати числа",
+        "project_2": "Це гра у крестики-нолики, написана на React.js. Щоб виграти, вам потрібно поставити три X або три O підряд, також ви можете змінити режим дня та ночі"
+      }
+    },
+    "app_page": {
+      "project_names": {
+        "project_1": "Кольори",
+        "project_2": "Погода",
+        "project_3": "Графік"
+      },
+      "project_description": {
+        "project_1": "Це додаток для вибору власної палітри кольорів, збереження і обміну нею з друзями. Для оновлення кольорів натискайте Tab, для збереження кольору клікайте на замок",
+        "project_2": "Це додаток погоди. Вам потрібно ввести своє місто та натиснути кнопку",
+        "project_3": "Це приклад анімованого графіку"
+      }
+    }
+  }  

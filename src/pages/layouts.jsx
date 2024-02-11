@@ -8,56 +8,58 @@ import Computer from "../media/projects_img/Computer.jpg"
 import Restaurant from "../media/projects_img/Restaurant.jpg"
 import Sport from "../media/projects_img/Sport.webp"
 import Travel from "../media/projects_img/Travel.jpg"
+import { useTranslation } from "react-i18next";
 
 export default function LayoutPage(){
+    const {t, i18n} = useTranslation()
     let layouts = [
         {
             id: 1, 
-            name: "Burger", 
+            name: `${t("layout_page.project_names.project_1")}`, 
             img: Burger, 
             demo: "https://ihorutkin.github.io/Burger/",
             github: "https://github.com/ihorutkin/Burger",
-            description: "This is layout of burger restaurant"
+            description: `${t("layout_page.project_description.project_1")}`
         },
         {
             id: 2, 
-            name: "Coffee", 
+            name: `${t("layout_page.project_names.project_2")}`, 
             img: Coffee, 
             demo: "https://ihorutkin.github.io/Coffee/",
             github: "https://github.com/ihorutkin/Coffee",
-            description: "This is layout of coffee internet shop"
+            description: `${t("layout_page.project_description.project_2")}`
         },
         {
             id: 3, 
-            name: "Computer", 
+            name: `${t("layout_page.project_names.project_3")}`, 
             img: Computer, 
             demo: "https://ihorutkin.github.io/Computer/",
             github: "https://github.com/ihorutkin/Computer",
-            description: "This is layout of computer internet shop"
+            description: `${t("layout_page.project_description.project_3")}`
         },
         {
             id: 4, 
-            name: "Sport", 
+            name: `${t("layout_page.project_names.project_4")}`, 
             img: Sport, 
             demo: "https://ihorutkin.github.io/Sport/",
             github: "https://github.com/ihorutkin/Sport",
-            description: "This is layout of fitness place"
+            description: `${t("layout_page.project_description.project_4")}`
         },
         {
             id: 5, 
-            name: "Travel", 
+            name: `${t("layout_page.project_names.project_5")}`, 
             img: Travel, 
             demo: "https://ihorutkin.github.io/travel/",
             github: "https://github.com/ihorutkin/travel",
-            description: "This is layout of travel internet shop"
+            description: `${t("layout_page.project_description.project_5")}`
         },
         {
             id: 6, 
-            name: "Restaurant", 
+            name: `${t("layout_page.project_names.project_6")}`, 
             img: Restaurant, 
             demo: "https://ihorutkin.github.io/Restaurant/",
             github: "https://github.com/ihorutkin/Restaurant",
-            description: "This is layout of restaurant"
+            description: `${t("layout_page.project_description.project_6")}`
         },
     ]
 

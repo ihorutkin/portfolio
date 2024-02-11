@@ -1,0 +1,165 @@
+{
+    "main_page": {
+      "greetings": "Nazywam się Ihor Utkin!",
+      "navigation": {
+        "about": "o mnie",
+        "service": "usługi",
+        "skills": "umiejętności",
+        "projects": "projekty",
+        "contact": "kontakt"
+      },
+      "about": {
+        "title": "O mnie",
+        "descriptions": {
+          "descriptions_title": "o mnie",
+          "descriptions_text": "Jestem młodym, obiecującym programistą front-end z 2-letnim doświadczeniem komercyjnym"
+        },
+        "education": {
+          "education_title": "Edukacja",
+          "education_item_1": {
+            "title": "SPECJALISTYCZNE KOLEDŻ LOTNICZY NA UNIWERSYTECIE LOTNICZYM W WASELKOWIE",
+            "faculty": "Wydział:",
+            "faculty_text": " Tworzenie oprogramowania",
+            "text": "Podczas studiów pracowałem z językami programowania takimi jak C++ i C#, uczestniczyłem w zaawansowanych kursach z matematyki wyższej, analizy matematycznej, równań różniczkowych, algebry liniowej, matematyki dyskretnej i teorii prawdopodobieństwa"
+          },
+          "education_item_2": {
+            "title": "UNIWERSYTET ANDRZEJA FRYCZA MODRZEWSKIEGO W KRAKOWIE",
+            "faculty": "Wydział:",
+            "faculty_text": " Bezpieczeństwo cybernetyczne",
+            "text": "Podczas studiów uczestniczyłem w kursach programowania w językach takich jak php, C++ i Java, nauczyłem się pracy z bazami danych przy użyciu SQL oraz pracy ze statystyką danych w R"
+          }
+        },
+        "achievement": {
+          "title": "Moje osiągnięcie",
+          "text": "Znalazłem się wśród 30 zwycięzców spośród 8 600 uczestników ogólnoukraińskiego konkursu \"Aviator\""
+        }
+      },
+      "service": {
+        "title": "Co potrafię",
+        "text": "Krótka lista moich umiejętności",
+        "services": {
+          "service_item_1": {
+            "title": "Responsywne strony internetowe",
+            "text": "Potrafię tworzyć responsywne strony internetowe"
+          },
+          "service_item_2": {
+            "title": "Adaptacyjne strony internetowe",
+            "text": "Potrafię tworzyć adaptacyjne strony internetowe"
+          },
+          "service_item_3": {
+            "title": "PWA",
+            "text": "Potrafię tworzyć progresywne aplikacje internetowe"
+          },
+          "service_item_4": {
+            "title": "Backend",
+            "text": "Potrafię tworzyć aplikacje backendowe"
+          },
+          "service_item_5": {
+            "title": "DevOps",
+            "text": "Potrafię tworzyć aplikacje zgodne z DevOps"
+          },
+          "service_item_6": {
+            "title": "Testowanie",
+            "text": "Potrafię przeprowadzać testy aplikacji"
+          }
+        }
+      },
+      "skills": {
+        "title": "Lista umiejętności",
+        "text": "To jest lista moich umiejętności"
+      },
+      "projects": {
+        "title": "Moje projekty",
+        "text": "To jest lista moich projektów",
+        "project": {
+          "type_1": {
+            "title": "Layouty",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Przejdź do projektów"
+          },
+          "type_2": {
+            "title": "Aplikacje",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Przejdź do projektów"
+          },
+          "type_3": {
+            "title": "Gry",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "button": "Przejdź do projektów"
+          }
+        }
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Bądźmy w kontakcie",
+        "fields": {
+          "name": "Imię",
+          "surname": "Nazwisko",
+          "email": "E-mail",
+          "subject": "Temat",
+          "text": "Twoja wiadomość...",
+          "button": "Wyślij"
+        }
+      },
+      "footer": {
+        "title_name": "IHOR",
+        "title_surname": "UTKIN",
+        "contact_info": {
+          "title": "INFORMACJE KONTAKTOWE",
+          "tel": "tel:",
+          "email": "e-mail:"
+        }
+      }
+    },
+    "projects_links": {
+      "home": "Strona główna",
+      "layout": "Makiety",
+      "game": "Gry",
+      "app": "Aplikacje"
+    },
+    "projects_button": {
+      "visit_site": "Odwiedź stronę",
+      "github": "Zobacz na GitHubie",
+      "description": "Opis"
+    },
+    "layout_page": {
+      "project_names": {
+        "project_1": "Burger",
+        "project_2": "Kawa",
+        "project_3": "Komputer",
+        "project_4": "Sport",
+        "project_5": "Podróż",
+        "project_6": "Restauracja"
+      },
+      "project_description": {
+        "project_1": "To jest układ restauracji z burgerami",
+        "project_2": "To jest układ internetowego sklepu z kawą",
+        "project_3": "To jest układ internetowego sklepu z komputerami",
+        "project_4": "To jest układ internetowego sklepu z komputerami",
+        "project_5": "To jest układ internetowego sklepu podróżniczego",
+        "project_6": "To jest układ restauracji"
+      }
+    },
+    "game_page": {
+      "project_names": {
+        "project_1": "2048",
+        "project_2": "Kółko krzyżyk"
+      },
+      "project_description": {
+        "project_1": "To jest gra 2048 napisana w czystym JavaScript. Musisz naciskać strzałki w dół, w górę, w lewo i w prawo, aby zamieniać liczby",
+        "project_2": "To jest gra w kółko krzyżyk napisana w React.js. Aby wygrać, musisz postawić trzy X lub trzy O pod rząd, możesz również zmieniać tryb dnia i nocy"
+      }
+    },
+    "app_page": {
+      "project_names": {
+        "project_1": "Kolory",
+        "project_2": "Pogoda",
+        "project_3": "Wykres"
+      },
+      "project_description": {
+        "project_1": "To jest aplikacja do wyboru własnej palety kolorów, zapisywania i udostępniania jej z przyjaciółmi. Aby zaktualizować kolory, naciśnij klawisz Tab, aby zapisać kolor, kliknij na zamek",
+        "project_2": "To jest aplikacja pogodowa. Musisz wpisać swoje miasto i nacisnąć przycisk",
+        "project_3": "To jest przykład animowanego wykresu"
+      }
+    }
+}  

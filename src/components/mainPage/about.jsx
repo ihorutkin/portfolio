@@ -1,39 +1,36 @@
 import React from "react";
 import "../../styles/components/mainPage/about.css"
+import { useTranslation } from "react-i18next";
 
 export default function About(){
+    const {t, i18n} = useTranslation()
     return(
         <section className="about-container" id="about">
             <div className="about">
                 <article className="title_block">
-                    <h2 className="title">About me</h2>
-                    <h3>Descriptions</h3>
-                    <div className="text">I am a young promising front-end developer with 2 years of commercial experience</div>
+                    <h2 className="title">{t("main_page.about.title")}</h2>
+                    <h3>{t("main_page.about.descriptions.descriptions_title")}</h3>
+                    <div className="text">{t("main_page.about.descriptions.descriptions_text")}</div>
                 </article>
                 <article className="education_block">
-                    <h3>Education</h3>
+                    <h3>{t("main_page.about.education.education_title")}</h3>
                     <div className="education">
                         <div className="university">
-                            <p className="uniwersity_title">VASILKIV SPECIALIST COLLEGE OF NATIONAL AVIATION UNIVERSITY</p>
-                            <p className="faculty"><span>Faculty: </span>Software development</p>
-                            <p className="education_description">During my studies I worked with languages ​​such as C++ and C#, 
-                            took an advanced course in higher mathematics, analysis 
-                            mathematics, equations differential, algebra linear, mathematics 
-                            discrete and theory probability</p>
+                            <p className="uniwersity_title">{t("main_page.about.education.education_item_1.title")}</p>
+                            <p className="faculty"><span>{t("main_page.about.education.education_item_1.faculty")}</span>{t("main_page.about.education.education_item_1.faculty_text")}</p>
+                            <p className="education_description">{t("main_page.about.education.education_item_1.text")}</p>
                         </div>
                         <div className="university">
-                            <p className="uniwersity_title">ANDRZEJ FRYCZ MODRZEWSKI KRAKOW UNIVERSITY</p>
-                            <p className="faculty"><span>Faculty: </span>Cyber security</p>
-                            <p className="education_description">During my studies I did so programming course in 
-                            languages ​​such as php, C++ and Java, I learned to work with 
-                            database using SQL and working with data statistics in R</p>
+                            <p className="uniwersity_title">{t("main_page.about.education.education_item_2.title")}</p>
+                            <p className="faculty"><span>{t("main_page.about.education.education_item_2.faculty")}</span>{t("main_page.about.education.education_item_2.faculty_text")}</p>
+                            <p className="education_description">{t("main_page.about.education.education_item_2.text")}</p>
                         </div>
                     </div>
                 </article>
                 <article className="achievements">
-                    <h3>My achievement</h3>
+                    <h3>{t("main_page.about.achievement.title")}</h3>
                     <div className="text">
-                        I was among 30 winners out of 8,600 participants All-Ukrainian competition "Aviator" <a href="https://kolesnikovfund.org/ru/news/2010">(click here)</a>
+                    {t("main_page.about.achievement.text")}<a href="https://kolesnikovfund.org/ru/news/2010">(click here)</a>
                     </div>
                 </article>
                 <article></article>

@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import "../../styles/components/Layout/layout.css"
+import { useTranslation } from "react-i18next";
 
 export default function Layout({children}){
+    const {t, i18n} = useTranslation()
     let location = document.location.pathname
     let refLayout = useRef(null)
     let refApps = useRef(null)
@@ -36,10 +38,10 @@ export default function Layout({children}){
         <>
             <header className="layout_header">
                 <nav>
-                    <a href="/" className="link">Home</a>
-                    <a href="/layout" ref={refLayout} className="link">Layout</a>
-                    <a href="/game" ref={refGames} className="link">Game</a>
-                    <a href="/app" ref={refApps} className="link">App</a>
+                    <a href="/" className="link">{t("projects_links.home")}</a>
+                    <a href="/layout" ref={refLayout} className="link">{t("projects_links.layout")}</a>
+                    <a href="/game" ref={refGames} className="link">{t("projects_links.game")}</a>
+                    <a href="/app" ref={refApps} className="link">{t("projects_links.app")}</a>
                 </nav>
             </header>
             { children }
@@ -47,21 +49,21 @@ export default function Layout({children}){
                 <section className="footer">
                     <article className="footer_inf">
                         <div className="footer_name">
-                            <h2>IHOR</h2>
-                            <h2>UTKIN</h2>
+                            <h2>{t("main_page.footer.title_name")}</h2>
+                            <h2>{t("main_page.footer.title_surname")}</h2>
                         </div>
                         <div className="contact_inf">
-                            <h2>CONTACT INFORMATION</h2>
-                            <p>tel: <a href="tel:789-282-788">+48 789 282 788</a></p>
-                            <p>email: <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
+                            <h2>{t("main_page.footer.contact_info.title")}</h2>
+                            <p>{t("main_page.footer.contact_info.tel")} <a href="tel:789-282-788">+48 789 282 788</a></p>
+                            <p>{t("main_page.footer.contact_info.email")} <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
                         </div>
                         <nav className="footer_nav">
-                            <a href="/" className="link">Home</a>
-                            <a href="/layout" className="link">Layout</a>
-                            <a href="/game" className="link">Game</a>
-                            <a href="/app" className="link">App</a>
+                            <a href="/" className="link">{t("projects_links.home")}</a>
+                            <a href="/layout" className="link">{t("projects_links.layout")}</a>
+                            <a href="/game" className="link">{t("projects_links.game")}</a>
+                            <a href="/app" className="link">{t("projects_links.app")}</a>
                         </nav>
-                    </article>  
+                    </article>
                     <div className="line"></div>
                     <article className="footer_social_media">
                         <i className="fa-brands fa-facebook"></i>

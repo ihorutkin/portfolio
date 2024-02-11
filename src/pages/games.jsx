@@ -2,24 +2,26 @@ import React from "react";
 import LayoutBlock from "../topics/layoutBlock";
 import Game_2048 from "../media/game.jpg"
 import Layout from "../components/Layout/layout";
+import { useTranslation } from "react-i18next";
 
 export default function Games(){
+    const {t, i18n} =  useTranslation()
     let layouts = [
         {
             id: 1,
-            name: "2048",
+            name: `${t("game_page.project_names.project_1")}`,
             img: Game_2048,
             demo: "https://ihorutkin.github.io/2048-demo/",
             github: "https://github.com/ihorutkin/2048-demo",
-            description: "This is 2048 game writted on native js. You have to press arrow down, up, left and right to replace the numbers"
+            description: `${t("game_page.project_description.project_1")}`
         },
         {
             id: 2,
-            name: "tic tac",
+            name: `${t("game_page.project_names.project_2")}`,
             img: Game_2048,
             demo: "https://ihorutkin.github.io/2048-demo/",
             github: "https://github.com/ihorutkin/tic-tac-demo",
-            description: "This is tic tac game writted on react.js. To win you have to put three X or three O in a row, also you can change day and night mode"
+            description: `${t("game_page.project_description.project_2")}`
         },
     ]
 

@@ -3,32 +3,34 @@ import LayoutBlock from "../topics/layoutBlock";
 import App_Color from "../media/app.jpg"
 import App_Chart from "../media/Chart.jpg"
 import Layout from "../components/Layout/layout";
+import { useTranslation } from "react-i18next";
 
 export default function Apps(){
+    const {t, i18n} = useTranslation()
     let layouts = [
         {
             id: 1,
-            name: "Colors",
+            name: `${t("app_page.project_names.project_1")}`,
             img: App_Color,
             demo: "https://ihorutkin.github.io/color-app-demo/",
             github: "https://github.com/ihorutkin/color-app-demo",
-            description: "This is color app. You can choose you personal palette of colors, save it and share with your friends, For upfating colors you have to press tab, for saving color you should to click on lock"
+            description: `${t("app_page.project_description.project_1")}`
         },
         {
             id: 2,
-            name: "Weather",
+            name: `${t("app_page.project_names.project_2")}`,
             img: App_Color,
             demo: "https://ihorutkin.github.io/color-app-demo/",
             github: "https://github.com/ihorutkin/WeatherApp",
-            description: "This is weather app. You have to write your city and click the button"
+            description: `${t("app_page.project_description.project_2")}`
         },
         {
             id: 3,
-            name: "Chart",
+            name: `${t("app_page.project_names.project_3")}`,
             img: App_Chart,
             demo: "https://ihorutkin.github.io/chart-app-demo/",
             github: "https://github.com/ihorutkin/chart-app-demo",
-            description: "This is an example of animated chart"
+            description: `${t("app_page.project_description.project_3")}`
         },
     ]
 

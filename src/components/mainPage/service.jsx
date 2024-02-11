@@ -1,54 +1,56 @@
 import React from "react";
 import "../../styles/components/mainPage/service.css"
+import { useTranslation } from "react-i18next";
 // import photo1 from "../media/work1.jpg"
 
 export default function Work(){
+    const {t, i18n} = useTranslation()
     return (
         <section className="service_container" id="service">
             <div className="service">
-            <h2 className="service_title">What can I do</h2>
-            <div className="service_text">Short list of my proffessional skills</div>
+            <h2 className="service_title">{t("main_page.service.title")}</h2>
+            <div className="service_text">{t("main_page.service.text")}</div>
             <div className="services">
                 <article className="service_item">
                     <i className="fa-solid fa-code"></i>
                     <div className="service_box">
-                        <p className="item_title">Responsive websites</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_1.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
                 <article className="service_item">
                     <i className="fa-brands fa-sass"></i>
                     <div className="service_box">
-                        <p className="item_title">Adaptive websites</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_2.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
                 <article className="service_item">
                     <i className="fa-brands fa-react"></i>
                     <div className="service_box">
-                        <p className="item_title">PWA</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_3.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
                 <article className="service_item">
                     <i className="fa-brands fa-node-js"></i>
                     <div className="service_box">
-                        <p className="item_title">Backend</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_4.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
                 <article className="service_item">
                     <i className="fa-solid fa-cloud-arrow-up"></i>
                     <div className="service_box">
-                        <p className="item_title">DevOps</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_5.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
                 <article className="service_item">
                     <i className="fa-solid fa-microscope"></i>
                     <div className="service_box">
-                        <p className="item_title">Testing</p>
-                        <p className="item_description">I can create responsible websites</p>
+                        <p className="item_title">{t("main_page.service.services.service_item_6.title")}</p>
+                        <p className="item_description">{t("main_page.service.services.service_item_1.text")}</p>
                     </div>
                 </article>
             </div>

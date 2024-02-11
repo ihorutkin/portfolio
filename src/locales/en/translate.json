@@ -1,0 +1,165 @@
+{
+    "main_page": {
+        "greetings": "My name is Ihor Utkin!",
+        "navigation": {
+            "about": "about",
+            "service": "service",
+            "skills": "skills",
+            "projects": "projects",
+            "contact": "contact"
+        },
+        "about": {
+            "title": "About me",
+            "descriptions": {
+                "descriptions_title": "descriptions",
+                "descriptions_text": "I am a young promising front-end developer with 2 years of commercial experience"
+            },
+            "education": {
+                "education_title": "Education",
+                "education_item_1": {
+                    "title": "VASILKIV SPECIALIST COLLEGE OF NATIONAL AVIATION UNIVERSITY",
+                    "faculty": "Faculty:",
+                    "faculty_text": " Software development",
+                    "text": "During my studies I worked with languages ​​such as C++ and C#, took an advanced course in higher mathematics, analysis mathematics, equations differential, algebra linear, mathematics discrete and theory probability"
+                },
+                "education_item_2": {
+                    "title": "ANDRZEJ FRYCZ MODRZEWSKI KRAKOW UNIVERSITY",
+                    "faculty": "Faculty:",
+                    "faculty_text": " Cyber security",
+                    "text": "During my studies I did so programming course in languages ​​such as php, C++ and Java, I learned to work with database using SQL and working with data statistics in R"
+                }
+            },
+            "achievement": {
+                "title": "My achievement",
+                "text": "I was among 30 winners out of 8,600 participants All-Ukrainian competition \"Aviator\""
+            }
+        },
+        "service": {
+            "title": "What can I do",
+            "text": "Short list of my proffessional skills",
+            "services": {
+                "service_item_1": {
+                    "title": "Responsive websites",
+                    "text": "I can create responsible websites"
+                },
+                "service_item_2": {
+                    "title": "Adaptive websites",
+                    "text": "I can create responsible websites"
+                },
+                "service_item_3": {
+                    "title": "PWA",
+                    "text": "I can create responsible websites"
+                },
+                "service_item_4": {
+                    "title": "Backend",
+                    "text": "I can create responsible websites"
+                },
+                "service_item_5": {
+                    "title": "DevOps",
+                    "text": "I can create responsible websites"
+                },
+                "service_item_6": {
+                    "title": "Testing",
+                    "text": "I can create responsible websites"
+                }
+            }
+        },
+        "skills": {
+            "title": "List of skills",
+            "text": "This is list of my skills"
+        },
+        "projects": {
+            "title": "My projects",
+            "text": "This is list of my personal projects",
+            "project": {
+                "type_1": {
+                    "title": "Layouts",
+                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "button": "Go to the projects"
+                },
+                "type_2": {
+                    "title": "Apps",
+                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "button": "Go to the projects"
+                },
+                "type_3": {
+                    "title": "Games",
+                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "button": "Go to the projects"
+                }
+            }
+        },
+        "contact": {
+            "title": "Contact",
+            "text": "Let's be in contact",
+            "fields": {
+                "name": "Name",
+                "surname": "Surname",
+                "email": "Email",
+                "subject": "Subject",
+                "text": "Your message...",
+                "button": "Send"
+            }
+        },
+        "footer": {
+            "title_name": "IHOR",
+            "title_surname": "UTKIN",
+            "contact_info": {
+                "title": "CONTACT INFORMATION",
+                "tel": "tel:",
+                "email": "email:"
+            }
+        }
+    },
+    "projects_links": {
+        "home": "Home",
+        "layout": "Layouts",
+        "game": "Games",
+        "app": "Apps"
+    },
+    "projects_button": {
+        "visit_site": "Visit site",
+        "github": "See on github",
+        "description": "Description"
+    },
+    "layout_page": {
+        "project_names": {
+            "project_1": "Burger",
+            "project_2": "Coffee",
+            "project_3": "Computer",
+            "project_4": "Sport",
+            "project_5": "Travel",
+            "project_6": "Restaurant"
+        },
+        "project_description": {
+            "project_1": "This is layout of burger restaurant",
+            "project_2": "This is layout of coffee internet shop",
+            "project_3": "This is layout of computer internet shop",
+            "project_4": "This is layout of computer internet shop",
+            "project_5": "This is layout of travel internet shop",
+            "project_6": "This is layout of restaurant"
+        }
+    },
+    "game_page": {
+        "project_names": {
+            "project_1": "2048",
+            "project_2": "tic tac"
+        },
+        "project_description": {
+            "project_1": "This is 2048 game writted on native js. You have to press arrow down, up, left and right to replace the numbers",
+            "project_2": "This is tic tac game writted on react.js. To win you have to put three X or three O in a row, also you can change day and night mode"
+        }
+    },
+    "app_page": {
+        "project_names": {
+            "project_1": "Colors",
+            "project_2": "Weather",
+            "project_3": "Chart"
+        },
+        "project_description": {
+            "project_1": "This is color app. You can choose you personal palette of colors, save it and share with your friends, For upfating colors you have to press tab, for saving color you should to click on lock",
+            "project_2": "This is weather app. You have to write your city and click the button",
+            "project_3": "This is an example of animated chart"
+        }
+    }
+}

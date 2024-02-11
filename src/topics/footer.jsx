@@ -1,26 +1,28 @@
 import React from "react";
 import "../styles/topics/footer.css"
+import { useTranslation } from "react-i18next";
 
 export default function Footer(){
+    const {t, i18n} = useTranslation()
     return(
         <footer className="footer_container">
             <section className="footer">
                 <article className="footer_inf">
                     <div className="footer_name">
-                        <h2>IHOR</h2>
-                        <h2>UTKIN</h2>
+                        <h2>{t("main_page.footer.title_name")}</h2>
+                        <h2>{t("main_page.footer.title_surname")}</h2>
                     </div>
                     <div className="contact_inf">
-                        <h2>CONTACT INFORMATION</h2>
-                        <p>tel: <a href="tel:789-282-788">+48 789 282 788</a></p>
-                        <p>email: <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
+                        <h2>{t("main_page.footer.contact_info.title")}</h2>
+                        <p>{t("main_page.footer.contact_info.tel")} <a href="tel:789-282-788">+48 789 282 788</a></p>
+                        <p>{t("main_page.footer.contact_info.email")} <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
                     </div>
                     <nav className="footer_nav">
-                        <a href="#about" className="link">about</a>   
-                        <a href="#service" className="link">service</a>
-                        <a href="#skills" className="link">skills</a>
-                        <a href="#projects" className="link">projects</a>
-                        <a href="#contact" className="link">contact</a>
+                        <a href="#about" className="link">{t("main_page.navigation.about")}</a>   
+                        <a href="#service" className="link">{t("main_page.navigation.service")}</a>
+                        <a href="#skills" className="link">{t("main_page.navigation.skills")}</a>
+                        <a href="#projects" className="link">{t("main_page.navigation.projects")}</a>
+                        <a href="#contact" className="link">{t("main_page.navigation.contact")}</a>
                     </nav>
                 </article>
                 <div className="line"></div>
