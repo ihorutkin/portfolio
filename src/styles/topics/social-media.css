@@ -9,10 +9,60 @@
 }
 
 .social-media{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.lang_container{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0;
+    top: 0;
+    cursor: pointer;
+    color: #e5e5e5;
+    list-style: none;
+}
+
+.fa-language{
+    font-size: 26px;
+}
+
+.lang_list{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lang_title:hover > .lang_list{
+    display: block;
+}
+
+.lang_item{
+    cursor: pointer;
+}
+
+.lang_item:hover{
+    border-left: 1px solid #e5e5e5;
+}
+
+.lang_btn{
+    background: none;
+    border: none;
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+
+.lang_btn{
+    background: none;
+    border: none;
+    color: #e5e5e5;
+    cursor: pointer;
 }
 
 .item{

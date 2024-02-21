@@ -1,6 +1,7 @@
 import React from "react";
 import LayoutBlock from "../topics/layoutBlock";
 import Game_2048 from "../media/game.jpg"
+import Game_tic_tac from "../media/game1.jpg"
 import Layout from "../components/Layout/layout";
 import { useTranslation } from "react-i18next";
 
@@ -18,9 +19,9 @@ export default function Games(){
         {
             id: 2,
             name: `${t("game_page.project_names.project_2")}`,
-            img: Game_2048,
-            demo: "https://ihorutkin.github.io/2048-demo/",
-            github: "https://github.com/ihorutkin/tic-tac-demo",
+            img: Game_tic_tac,
+            demo: "https://ihorutkin.github.io/tic-toc-demo/",
+            github: "https://github.com/ihorutkin/tic-toc",
             description: `${t("game_page.project_description.project_2")}`
         },
     ]

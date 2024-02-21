@@ -1,52 +1,105 @@
 import React, { useState } from "react";
 import '../../styles/components/mainPage/contact.css'
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 
 export default function Contact(){
     const {t, i18n} = useTranslation()
 
+    const TOKEN = "6388546560:AAE_75bisozQS_4UhPm11eyQcdyugUXG3YM"
+    const CHAT_ID = "-1001954887431"
+    const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
+
     const [name, setName] = useState('')
     const [surname, setSurname] = useState('')
     const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
     const [text, setText] = useState('')
 
-    const formSubmitHandler = async (event) => {
-        event.preventDefault();
-        const url = new URL('/api', document.location.href)
+    function handleSubmit(event){
+        event.preventDefault()
+        let message = `<b>Request from site</b>\n`
+        message += `<b>Name: </b>${name}\n`
+        message += `<b>Surname: </b>${surname}\n`
+        message += `<b>Email: </b>${email}\n`
+        message += `<b>Subject: </b>${subject}\n`
+        message += `<b>Text: </b>${text}\n`
 
-        url.searchParams.set('name', name)
-        url.searchParams.set('phone', surname)
-        url.searchParams.set('email', email)
-        url.searchParams.set('text', text)
-
-        await fetch(url.toString(), {
-            method: 'GET',
+        axios.post(URL_API, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: message
         })
-
-        setName('')
-        setSurname('')
-        setEmail('')
-        setText('')
+        .then((res) => {
+            alert('Message has been sent')
+            setName('')
+            setSurname('')
+            setEmail('')
+            setSubject('')
+            setText('')
+        })
+        .catch(err => {
+            throw(err.message)
+        })
     }
+
     return(
         <section className="contact_container" id="contact">
             <div className="contact">
                 <h2 className="title">{t("main_page.contact.title")}</h2>
                 <p className="text">{t("main_page.contact.text")}</p>
-                <form className="contact_form" onSubmit={formSubmitHandler}>
+                <form onSubmit={handleSubmit} className="contact_form" id="tg">
                     <article className="contact_form_fields">
                         <div className="fields_container">
-                            <input type="text" placeholder={t("main_page.contact.fields.name")} className="input_field" value={name} onChange={(e) => setName(e.target.value)}/>
-                            <input type="text" placeholder={t("main_page.contact.fields.surname")} className="input_field" value={surname} onChange={(e) => setSurname(e.target.value)}/>
-                            <input type="email" placeholder={t("main_page.contact.fields.email")} className="input_field" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                            <input type="text" placeholder={t("main_page.contact.fields.subject")} className="input_field subject" value={text} onChange={(e) => setText(e.target.value)}/>
+                            <input 
+                                type="text" 
+                                placeholder={t("main_page.contact.fields.name")} 
+                                className="input_field" 
+                                name="name"
+                                value={name}
+                                onChange={(event) => setName(event.target.value)}
+                                required
+                            />
+                            <input 
+                                type="text" 
+                                placeholder={t("main_page.contact.fields.surname")} 
+                                className="input_field" 
+                                name="surname"
+                                value={surname}
+                                onChange={(event) => setSurname(event.target.value)}
+                                required
+                            />
+                            <input 
+                                type="email" 
+                                placeholder={t("main_page.contact.fields.email")} 
+                                className="input_field" 
+                                name="email"
+                                value={email}
+                                onChange={(event) => setEmail(event.target.value)}
+                                required
+                            />
+                            <input 
+                                type="text" 
+                                placeholder={t("main_page.contact.fields.subject")} 
+                                className="input_field subject" 
+                                name="subject"
+                                value={subject}
+                                onChange={(event) => setSubject(event.target.value)}
+                                required
+                            />
                         </div>
                         <div className="btn_container">
-                            <button type="text" className="contact_btn">{t("main_page.contact.fields.button")}</button>
+                            <button type="submit" className="contact_btn">{t("main_page.contact.fields.button")}</button>
                         </div>
                     </article>
                     <article className="contact_form_text">
-                        <textarea className="text_field" placeholder={t("main_page.contact.fields.text")}></textarea>
+                        <textarea 
+                            className="text_field" 
+                            placeholder={t("main_page.contact.fields.text")} 
+                            name="text"
+                            value={text}
+                            onChange={(event) => setText(event.target.value)}
+                        ></textarea>
                     </article>
                 </form>
             </div>

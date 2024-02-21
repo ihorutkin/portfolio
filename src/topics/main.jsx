@@ -9,9 +9,9 @@ export default function Main(){
         <section className="main-container">
             <video src={video} loop autoPlay muted></video>
             <article className="text-container">
-                <h2 className="title-name"> 
+                {/* <h2 className="title-name"> 
                     {t("main_page.greetings")} 
-                </h2>
+                </h2> */}
                 <h2 className="title-frontend">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos nobis possimus earum excepturi perspiciatis consectetur, voluptas animi porro minima.
                 </h2>

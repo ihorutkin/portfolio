@@ -2,6 +2,7 @@ import React from "react";
 import LayoutBlock from "../topics/layoutBlock";
 import App_Color from "../media/app.jpg"
 import App_Chart from "../media/Chart.jpg"
+import App_Weather from "../media/wheather.jpg"
 import Layout from "../components/Layout/layout";
 import { useTranslation } from "react-i18next";
 
@@ -19,8 +20,8 @@ export default function Apps(){
         {
             id: 2,
             name: `${t("app_page.project_names.project_2")}`,
-            img: App_Color,
-            demo: "https://ihorutkin.github.io/color-app-demo/",
+            img: App_Weather,
+            demo: "https://ihorutkin.github.io/weather-demo/",
             github: "https://github.com/ihorutkin/WeatherApp",
             description: `${t("app_page.project_description.project_2")}`
         },
