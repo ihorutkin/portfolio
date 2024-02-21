@@ -13,7 +13,7 @@ export default function Main(){
                     {t("main_page.greetings")} 
                 </h2> */}
                 <h2 className="title-frontend">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos nobis possimus earum excepturi perspiciatis consectetur, voluptas animi porro minima.
+                    {t("main_page.short_description")}
                 </h2>
             </article>
             <div className="see-more-btn">

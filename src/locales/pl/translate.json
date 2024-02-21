@@ -1,6 +1,7 @@
 {
     "main_page": {
       "greetings": "Nazywam się Ihor Utkin!",
+      "short_description": "Jestem programistem front-end z 3 letnim doświadczeniem, z nich półtorarocznym doświadczeniem komercyjnym",
       "navigation": {
         "about": "o mnie",
         "service": "usługi",
@@ -12,7 +13,7 @@
         "title": "O mnie",
         "descriptions": {
           "descriptions_title": "o mnie",
-          "descriptions_text": "Jestem młodym, obiecującym programistą front-end z 2-letnim doświadczeniem komercyjnym"
+          "descriptions_text": "Jestem młodym, obiecującym programistą front-end z 1.5-letnim doświadczeniem komercyjnym"
         },
         "education": {
           "education_title": "Edukacja",
@@ -74,17 +75,17 @@
         "project": {
           "type_1": {
             "title": "Layouty",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Moję osobiste projekty stron internetowych, stworzone przy użyciu React i JavaScript, nie tylko prezentują moje umiejętności w zakresie tworzenia stron internetowych, ale również moją zdolność do łączenia funkcjonalności z pięknem, tworząc unikalne i estetycznie atrakcyjne projekty internetowe.",
             "button": "Przejdź do projektów"
           },
           "type_2": {
             "title": "Aplikacje",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Moje aplikacje, w tym aplikacja pogodowa, aplikacja do wybierania kolorów i narzędzie do wizualizacji danych, są stworzone z precyzją i kreatywnością przy użyciu React i JavaScript, oferując intuicyjne doświadczenia użytkownika i praktyczne funkcjonalności.",
             "button": "Przejdź do projektów"
           },
           "type_3": {
             "title": "Gry",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Moje gry, w tym Kółko i Krzyżyk oraz 2048, są starannie zaprojektowane i wykonane przy użyciu React i JavaScript, zapewniając angażującą rozgrywkę i przyjemne doświadczenia dla graczy w każdym wieku.",
             "button": "Przejdź do projektów"
           }
         }

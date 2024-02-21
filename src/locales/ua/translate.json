@@ -1,6 +1,7 @@
 {
     "main_page": {
       "greetings": "Мене звуть Ігор Уткін!",
+      "short_description": "Я front-end розробник з трьох річним досвідом, в тому числі півтора-річним комерційним досвідом",
       "navigation": {
         "about": "про мене",
         "service": "послуги",
@@ -12,7 +13,7 @@
         "title": "Про мене",
         "descriptions": {
           "descriptions_title": "про мене",
-          "descriptions_text": "Я молодий та перспективний фронтенд-розробник із 2-річним комерційним досвідом"
+          "descriptions_text": "Я молодий та перспективний фронтенд-розробник із півтора-річним комерційним досвідом"
         },
         "education": {
           "education_title": "Освіта",
@@ -74,17 +75,17 @@
         "project": {
           "type_1": {
             "title": "Макети",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Мої особисті дизайни веб-сайтів, створені з використанням React і JavaScript, показують не тільки мої навички у веб-розробці, але й мою здатність поєднувати функціональність з красою, створюючи унікальні та естетично привабливі веб-проекти.",
             "button": "Перейти до проектів"
           },
           "type_2": {
             "title": "Додатки",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Мої додатки, включаючи погодний додаток, додаток для вибору кольорів та інструмент візуалізації даних, розроблені з точністю та креативністю за допомогою React і JavaScript, пропонуючи інтуїтивний досвід користувача та практичні функціональності.",
             "button": "Перейти до проектів"
           },
           "type_3": {
             "title": "Ігри",
-            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+            "text": "Мої ігри, включаючи хрестики-нулики та 2048, ретельно розроблені та реалізовані за допомогою React і JavaScript, забезпечують захопливу гру та приємні враження для гравців будь-якого віку.",
             "button": "Перейти до проектів"
           }
         }

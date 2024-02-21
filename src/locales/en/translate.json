@@ -1,6 +1,7 @@
 {
     "main_page": {
         "greetings": "My name is Ihor Utkin!",
+        "short_description": "I am a front-end developer with 3 years of experience, including one and a half years of commercial experience",
         "navigation": {
             "about": "about",
             "service": "service",
@@ -12,7 +13,7 @@
             "title": "About me",
             "descriptions": {
                 "descriptions_title": "descriptions",
-                "descriptions_text": "I am a young promising front-end developer with 2 years of commercial experience"
+                "descriptions_text": "I am a young promising front-end developer with 1.5 years of commercial experience"
             },
             "education": {
                 "education_title": "Education",
@@ -74,17 +75,17 @@
             "project": {
                 "type_1": {
                     "title": "Layouts",
-                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "text": "My personal website designs, crafted with React and JavaScript, showcase not only my web development skills but also my ability to merge functionality with beauty, creating unique and visually appealing web projects.",
                     "button": "Go to the projects"
                 },
                 "type_2": {
                     "title": "Apps",
-                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "text": "My applications, including a weather app, a color picker app, and a data visualization tool, are crafted with precision and creativity using React and JavaScript, offering intuitive user experiences and practical functionalities.",
                     "button": "Go to the projects"
                 },
                 "type_3": {
                     "title": "Games",
-                    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id porro animi praesentium tenetur. Dolor deleniti nihil labore earum! Fugiat.",
+                    "text": "My games, including Tic Tac Toe and 2048, are meticulously designed and implemented using React and JavaScript, providing engaging gameplay and enjoyable experiences for players of all ages.",
                     "button": "Go to the projects"
                 }
             }
