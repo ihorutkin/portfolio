@@ -8,19 +8,19 @@ export default function About(){
         <section className="about-container" id="about">
             <div className="about">
                 <article className="title_block">
-                    <h2 className="title">{t("main_page.about.title")}</h2>
+                    <h2 className="title" data-aos="fade-right" data-aos-delay="100">{t("main_page.about.title")}</h2>
                     <h3>{t("main_page.about.descriptions.descriptions_title")}</h3>
                     <div className="text">{t("main_page.about.descriptions.descriptions_text")}</div>
                 </article>
                 <article className="education_block">
                     <h3>{t("main_page.about.education.education_title")}</h3>
                     <div className="education">
-                        <div className="university">
+                        <div className="university" data-aos="fade-right" data-aos-delay="100">
                             <p className="uniwersity_title">{t("main_page.about.education.education_item_1.title")}</p>
                             <p className="faculty"><span>{t("main_page.about.education.education_item_1.faculty")}</span>{t("main_page.about.education.education_item_1.faculty_text")}</p>
                             <p className="education_description">{t("main_page.about.education.education_item_1.text")}</p>
                         </div>
-                        <div className="university">
+                        <div className="university" data-aos="fade-left" data-aos-delay="100">
                             <p className="uniwersity_title">{t("main_page.about.education.education_item_2.title")}</p>
                             <p className="faculty"><span>{t("main_page.about.education.education_item_2.faculty")}</span>{t("main_page.about.education.education_item_2.faculty_text")}</p>
                             <p className="education_description">{t("main_page.about.education.education_item_2.text")}</p>

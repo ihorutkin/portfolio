@@ -46,10 +46,10 @@ export default function Contact(){
     return(
         <section className="contact_container" id="contact">
             <div className="contact">
-                <h2 className="title">{t("main_page.contact.title")}</h2>
-                <p className="text">{t("main_page.contact.text")}</p>
+                <h2 className="title" data-aos="fade-right" data-aos-delay="100">{t("main_page.contact.title")}</h2>
+                <p className="text" data-aos="fade-right" data-aos-delay="150">{t("main_page.contact.text")}</p>
                 <form onSubmit={handleSubmit} className="contact_form" id="tg">
-                    <article className="contact_form_fields">
+                    <article className="contact_form_fields" data-aos="fade-right" data-aos-delay="150">
                         <div className="fields_container">
                             <input 
                                 type="text" 
@@ -92,7 +92,7 @@ export default function Contact(){
                             <button type="submit" className="contact_btn">{t("main_page.contact.fields.button")}</button>
                         </div>
                     </article>
-                    <article className="contact_form_text">
+                    <article className="contact_form_text" data-aos="fade-left" data-aos-delay="150">
                         <textarea 
                             className="text_field" 
                             placeholder={t("main_page.contact.fields.text")} 

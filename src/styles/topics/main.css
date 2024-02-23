@@ -28,20 +28,20 @@
 }
 
 .text-container{
-    width: 540px;
+    max-width: 540px;
     margin-left: 10rem;
 }
 
 .title-name{
-    width: 22ch;
+    /* width: 22ch; */
     color: #e5e5e5;
     font-size: 42px;
     white-space: nowrap;
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    overflow: hidden;
-    border-right: 4px solid #fff;
-    animation: flashing_line .5s step-end infinite, type_text 5s steps(22) infinite;
+    /* overflow: hidden; */
+    /* border-right: 4px solid #fff; */
+    /* animation: flashing_line .5s step-end infinite, type_text 5s steps(22) infinite; */
 }
 
 .title-frontend{
@@ -86,6 +86,21 @@
     cursor: pointer;
     transition: all .3s linear;
 }
+
+.see-more-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.see-more-btn a i{
+    text-align: center;
+    width: 160px;
+}
+
+/* .download_cv{
+    font-size: 14px;
+    color: #e5e5e5;
+} */
 
 .see-more-btn:hover{
     animation: arrow 1s step-start infinite;

@@ -66,9 +66,15 @@ export default function Layout({children}){
                     </article>
                     <div className="line"></div>
                     <article className="footer_social_media">
-                        <i className="fa-brands fa-facebook"></i>
-                        <i className="fa-brands fa-linkedin"></i>
-                        <i className="fa-brands fa-github"></i>
+                        <a href="https://www.linkedin.com/in/ihor-utkin/">
+                            <i className="fa-brands fa-linkedin item"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100042482872993">
+                            <i className="fa-brands fa-facebook item"></i>
+                        </a>
+                        <a href="https://github.com/ihorutkin">
+                            <i className="fa-brands fa-github item"></i>
+                        </a>
                     </article>
                 </section>
             </footer>

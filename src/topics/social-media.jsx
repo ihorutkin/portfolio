@@ -8,14 +8,12 @@ export default function Aside(){
     function changeLanguage(language){
         return i18n.changeLanguage(language)
     }
-    console.log('i18n', i18n)
-    console.log('t', t)
     return (
         <aside className="aside">
             <div className="social-media">
             <ul className="lang_container">
                     <li className="lang_title">
-                        <i class="fa-solid fa-language"></i>
+                        <i className="fa-solid fa-language"></i>
                         <ul className="lang_list">
                             <li className="lang_item">
                                 <button className="lang_btn" onClick={() => changeLanguage("en")}>EN</button>
@@ -29,9 +27,15 @@ export default function Aside(){
                         </ul>
                     </li>
                 </ul>
-                <i className="fa-brands fa-instagram item"></i>
-                <i className="fa-brands fa-facebook item"></i>
-                <i className="fa-brands fa-github item"></i>
+                <a href="https://www.linkedin.com/in/ihor-utkin/">
+                    <i className="fa-brands fa-linkedin item"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100042482872993">
+                    <i className="fa-brands fa-facebook item"></i>
+                </a>
+                <a href="https://github.com/ihorutkin">
+                    <i className="fa-brands fa-github item"></i>
+                </a>
             </div>
         </aside>
     )

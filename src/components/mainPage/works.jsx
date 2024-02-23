@@ -12,27 +12,27 @@ export default function Works(){
             </div>
             <div className="work_list">
                 <article className="work_item">
-                    <div className="work_img_block first"></div>
+                    <div className="work_img_block first" data-aos="fade-right" data-aos-delay="150"></div>
                     <div className="work_content_block">
-                        <h2 className="work_item_title">{t("main_page.projects.project.type_1.title")}</h2>
-                        <div className="work_item_text">{t("main_page.projects.project.type_1.text")}</div>
-                        <a href="/layout" className="work_item_link">{t("main_page.projects.project.type_1.button")}<i style={{paddingLeft: '10px'}} class="fa-solid fa-arrow-right"></i></a>
+                        <h2 className="work_item_title" data-aos="fade-left" data-aos-delay="100">{t("main_page.projects.project.type_1.title")}</h2>
+                        <div className="work_item_text" data-aos="fade-left" data-aos-delay="150">{t("main_page.projects.project.type_1.text")}</div>
+                        <a href="/layout" className="work_item_link" data-aos="fade-left" data-aos-delay="200">{t("main_page.projects.project.type_1.button")}<i style={{paddingLeft: '10px'}} className="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
                 <article className="work_item">
                     <div className="work_content_block">
-                        <h2 className="work_item_title">{t("main_page.projects.project.type_2.title")}</h2>
-                        <div className="work_item_text">{t("main_page.projects.project.type_2.text")}</div>
-                        <a href="/app" className="work_item_link">{t("main_page.projects.project.type_2.button")}<i style={{paddingLeft: '10px'}} class="fa-solid fa-arrow-right"></i></a>
+                        <h2 className="work_item_title" data-aos="fade-right" data-aos-delay="100">{t("main_page.projects.project.type_2.title")}</h2>
+                        <div className="work_item_text" data-aos="fade-right" data-aos-delay="150">{t("main_page.projects.project.type_2.text")}</div>
+                        <a href="/app" className="work_item_link" data-aos="fade-right" data-aos-delay="200">{t("main_page.projects.project.type_2.button")}<i style={{paddingLeft: '10px'}} className="fa-solid fa-arrow-right"></i></a>
                     </div>
-                    <div className="work_img_block second"></div>
+                    <div className="work_img_block second" data-aos="fade-left" data-aos-delay="150"></div>
                 </article>
                 <article className="work_item">
-                    <div className="work_img_block third"></div>
+                    <div className="work_img_block third" data-aos="fade-right" data-aos-delay="150"></div>
                     <div className="work_content_block">
-                        <h2 className="work_item_title">{t("main_page.projects.project.type_3.title")}</h2>
-                        <div className="work_item_text">{t("main_page.projects.project.type_3.text")}</div>
-                        <a href="/game" className="work_item_link">{t("main_page.projects.project.type_3.button")}<i style={{paddingLeft: '10px'}} class="fa-solid fa-arrow-right"></i></a>
+                        <h2 className="work_item_title" data-aos="fade-left" data-aos-delay="100">{t("main_page.projects.project.type_3.title")}</h2>
+                        <div className="work_item_text" data-aos="fade-left" data-aos-delay="150">{t("main_page.projects.project.type_3.text")}</div>
+                        <a href="/game" className="work_item_link" data-aos="fade-left" data-aos-delay="200">{t("main_page.projects.project.type_3.button")}<i style={{paddingLeft: '10px'}} className="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </article>
             </div>

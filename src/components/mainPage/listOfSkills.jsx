@@ -9,12 +9,12 @@ export default function ListOfSkills(){
     return(
         <section className="list_container" id="skills">
             <div className="list_of_skills">
-                <h2 className="title">{t("main_page.skills.title")}</h2>
-                <div className="text">{t("main_page.skills.text")}</div>
+                <h2 className="title" data-aos="fade-right" data-aos-delay="100">{t("main_page.skills.title")}</h2>
+                <div className="text" data-aos="fade-right" data-aos-delay="150">{t("main_page.skills.text")}</div>
                 <article className="skills">
                     {
-                        skills.map(elem => {
-                            return <Skill name={elem} />
+                        skills.map((elem, index) => {
+                            return <Skill key={index} name={elem} />    
                         })
                     }
                 </article>
