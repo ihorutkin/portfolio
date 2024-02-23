@@ -29,7 +29,8 @@
 
 .text-container{
     max-width: 540px;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
+    padding-left: 10rem;
 }
 
 .title-name{
@@ -123,3 +124,9 @@
 /* .main-btn:hover{
     color: #000;
 } */
+
+@media (max-width: 768px){
+    .text-container{
+        padding-left: 3rem;
+    }
+}
