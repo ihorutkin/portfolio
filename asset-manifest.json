@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d377377a.css",
+    "main.js": "/portfolio/static/js/main.8a6a363e.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/video.mp4": "/portfolio/static/media/video.6216020ad9027f9a6789.mp4",
+    "static/media/Burger.png": "/portfolio/static/media/Burger.f82ca97be257b09e4add.png",
+    "static/media/work1.jpg": "/portfolio/static/media/work1.f1c665d63dd21570a7b6.jpg",
+    "static/media/Travel.jpg": "/portfolio/static/media/Travel.9b1df8ce64971a1cb098.jpg",
+    "static/media/Coffee.jpg": "/portfolio/static/media/Coffee.5af58d8f3ee86f667025.jpg",
+    "static/media/Restaurant.jpg": "/portfolio/static/media/Restaurant.2cd7de7d8876babf4469.jpg",
+    "static/media/layout.jpg": "/portfolio/static/media/layout.9f968f4ecec2c19ef055.jpg",
+    "static/media/CV_IHOR_UTKIN.pdf": "/portfolio/static/media/CV_IHOR_UTKIN.ddff5b6a474fb1aa7b7a.pdf",
+    "static/media/Computer.jpg": "/portfolio/static/media/Computer.2cf28dab1e04ee23f10f.jpg",
+    "static/media/Chart.jpg": "/portfolio/static/media/Chart.b1be865889f98bc34aff.jpg",
+    "static/media/Sport.webp": "/portfolio/static/media/Sport.f70a067747e18533146e.webp",
+    "static/media/game.jpg": "/portfolio/static/media/game.355cb4a56a611e94cda5.jpg",
+    "static/media/game1.jpg": "/portfolio/static/media/game1.400ef0119a9bf1ca4684.jpg",
+    "static/media/app.jpg": "/portfolio/static/media/app.cbaf4787237995bb3337.jpg",
+    "static/media/wheather.jpg": "/portfolio/static/media/wheather.8814c9784a67760649d0.jpg",
+    "index.html": "/portfolio/index.html",
+    "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.d377377a.css.map": "/portfolio/static/css/main.d377377a.css.map",
+    "main.8a6a363e.js.map": "/portfolio/static/js/main.8a6a363e.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d377377a.css",
+    "static/js/main.8a6a363e.js"
+  ]
+}
