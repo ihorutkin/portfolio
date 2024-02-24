@@ -12,19 +12,19 @@ function App() {
           <Routes>
             <Route 
               exact
-              path='/'
+              path='/portfolio'
               element={<MainPage />}
             />
             <Route 
-              path='/layout'
+              path='/portfolio/layout'
               element={<LayoutPage />}
             />
             <Route 
-              path='/game'
+              path='/portfolio/game'
               element={<Games />}
             />
             <Route 
-              path='/app'
+              path='/portfolio/app'
               element={<Apps />}
             />
           </Routes>
