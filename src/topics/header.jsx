@@ -30,11 +30,10 @@ export default function Headers(){
                 <a href="#projects" className="link">{t("main_page.navigation.projects")}</a>
                 <a href="#contact" className="link">{t("main_page.navigation.contact")}</a>
             </nav>
-            <i class="fa-solid fa-bars" onClick={(event) => {
+            <i className="fa-solid fa-bars" onClick={(event) => {
                 event.target.classList.toggle("fa-xmark")
                 setModal(!modal)
             }}></i>
-            {/* <i class="fa-solid fa-xmark"></i> */}
         </header>
     )
 }
