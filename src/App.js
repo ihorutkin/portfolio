@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/mainPage';
 import LayoutPage from './pages/layouts';
 import Games from './pages/games';
@@ -12,19 +12,19 @@ function App() {
           <Routes>
             <Route 
               exact
-              path='/portfolio'
+              path='/'
               element={<MainPage />}
             />
             <Route 
-              path='/portfolio/layout'
+              path='/layout'
               element={<LayoutPage />}
             />
             <Route 
-              path='/portfolio/game'
+              path='/game'
               element={<Games />}
             />
             <Route 
-              path='/portfolio/app'
+              path='/app'
               element={<Apps />}
             />
           </Routes>
