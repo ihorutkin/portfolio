@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/mainPage';
 import LayoutPage from './pages/layouts';
 import Games from './pages/games';
