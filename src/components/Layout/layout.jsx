@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../styles/components/Layout/layout.css"
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Layout({children}){
     const {t, i18n} = useTranslation()
@@ -38,10 +39,10 @@ export default function Layout({children}){
         <>
             <header className="layout_header">
                 <nav>
-                    <a href="/portfolio/#/" className="link">{t("projects_links.home")}</a>
-                    <a href="/portfolio/#/layout" ref={refLayout} className="link">{t("projects_links.layout")}</a>
-                    <a href="/portfolio/#/game" ref={refGames} className="link">{t("projects_links.game")}</a>
-                    <a href="/portfolio/#/app" ref={refApps} className="link">{t("projects_links.app")}</a>
+                    <Link to={"/"} className="link"><a>{t("projects_links.home")}</a></Link>
+                    <Link to={"/layout"} className="link"><a>{t("projects_links.layout")}</a></Link>
+                    <Link to={"/game"} className="link"><a>{t("projects_links.game")}</a></Link>
+                    <Link to={"/app"} className="link"><a>{t("projects_links.app")}</a></Link>
                 </nav>
             </header>
             { children }
@@ -58,10 +59,10 @@ export default function Layout({children}){
                             <p>{t("main_page.footer.contact_info.email")} <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
                         </div>
                         <nav className="footer_nav">
-                            <a href="/portfolio/#/" className="link">{t("projects_links.home")}</a>
-                            <a href="/portfolio/#/layout" className="link">{t("projects_links.layout")}</a>
-                            <a href="/portfolio/#/game" className="link">{t("projects_links.game")}</a>
-                            <a href="/portfolio/#/app" className="link">{t("projects_links.app")}</a>
+                            <Link to={"/"} className="link"><a>{t("projects_links.home")}</a></Link>
+                            <Link to={"/layout"} className="link"><a>{t("projects_links.layout")}</a></Link>
+                            <Link to={"/game"} className="link"><a>{t("projects_links.game")}</a></Link>
+                            <Link to={"/app"} className="link"><a>{t("projects_links.app")}</a></Link>
                         </nav>
                     </article>
                     <div className="line"></div>
