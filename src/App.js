@@ -12,7 +12,7 @@ function App() {
           <Routes>
             <Route 
               exact
-              path='/'
+              path='/portfolio'
               element={<MainPage />}
             />
             <Route 
