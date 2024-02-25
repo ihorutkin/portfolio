@@ -16,15 +16,15 @@ function App() {
               element={<MainPage />}
             />
             <Route 
-              path='/layout'
+              path='*/layout'
               element={<LayoutPage />}
             />
             <Route 
-              path='/game'
+              path='*/game'
               element={<Games />}
             />
             <Route 
-              path='/app'
+              path='*/app'
               element={<Apps />}
             />
           </Routes>
