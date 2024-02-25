@@ -8,7 +8,7 @@ import Apps from './pages/apps';
 
 function App() {
   return (
-    <Router basename='/portfolio'>
+    <Router>
           <Routes>
             <Route 
               path='/'
@@ -16,15 +16,15 @@ function App() {
               element={<MainPage />}
             />
             <Route 
-              path='/layout'
+              path='/portfolio/#/layout'
               element={<LayoutPage />}
             />
             <Route 
-              path='/game'
+              path='/portfolio/#/game'
               element={<Games />}
             />
             <Route 
-              path='/app'
+              path='/portfolio/#/app'
               element={<Apps />}
             />
           </Routes>
