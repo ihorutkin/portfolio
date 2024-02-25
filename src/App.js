@@ -11,23 +11,20 @@ function App() {
     <Router>
           <Routes>
             <Route 
-              path='/'
+              path='./'
               exact
               element={<MainPage />}
             />
             <Route 
               path='/layout'
-              exact
               element={<LayoutPage />}
             />
             <Route 
               path='/game'
-              exact
               element={<Games />}
             />
             <Route 
               path='/app'
-              exact
               element={<Apps />}
             />
           </Routes>
