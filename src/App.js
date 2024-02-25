@@ -17,14 +17,17 @@ function App() {
             />
             <Route 
               path='/layout'
+              exact
               element={<LayoutPage />}
             />
             <Route 
               path='/game'
+              exact
               element={<Games />}
             />
             <Route 
               path='/app'
+              exact
               element={<Apps />}
             />
           </Routes>
