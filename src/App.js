@@ -8,27 +8,27 @@ import Apps from './pages/apps';
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route 
-          path='/'
-          exact
-          element={<MainPage />}
-        />
-        <Route 
-          path='/layout'
-          element={<LayoutPage />}
-        />
-        <Route 
-          path='/game'
-          element={<Games />}
-        />
-        <Route 
-          path='/app'
-          element={<Apps />}
-        />
-      </Routes>
-    </HashRouter>
+    <Router>
+          <Routes>
+            <Route 
+              path='/'
+              exact
+              element={<MainPage />}
+            />
+            <Route 
+              path='/layout'
+              element={<LayoutPage />}
+            />
+            <Route 
+              path='/game'
+              element={<Games />}
+            />
+            <Route 
+              path='/app'
+              element={<Apps />}
+            />
+          </Routes>
+    </Router>
   );
 }
 
