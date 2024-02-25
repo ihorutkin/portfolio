@@ -11,20 +11,20 @@ function App() {
     <Router>
           <Routes>
             <Route 
-              exact
               path='/'
+              exact
               element={<MainPage />}
             />
             <Route 
-              path='/portfolio/layout'
+              path='/layout'
               element={<LayoutPage />}
             />
             <Route 
-              path='/portfolio/game'
+              path='/game'
               element={<Games />}
             />
             <Route 
-              path='/portfolio/app'
+              path='/app'
               element={<Apps />}
             />
           </Routes>
