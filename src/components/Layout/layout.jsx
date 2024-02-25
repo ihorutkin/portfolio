@@ -38,10 +38,10 @@ export default function Layout({children}){
         <>
             <header className="layout_header">
                 <nav>
-                    <a href="/" className="link">{t("projects_links.home")}</a>
-                    <a href="/layout" ref={refLayout} className="link">{t("projects_links.layout")}</a>
-                    <a href="/game" ref={refGames} className="link">{t("projects_links.game")}</a>
-                    <a href="/app" ref={refApps} className="link">{t("projects_links.app")}</a>
+                    <a href="/portfolio/#/" className="link">{t("projects_links.home")}</a>
+                    <a href="/portfolio/#/layout" ref={refLayout} className="link">{t("projects_links.layout")}</a>
+                    <a href="/portfolio/#/game" ref={refGames} className="link">{t("projects_links.game")}</a>
+                    <a href="/portfolio/#/app" ref={refApps} className="link">{t("projects_links.app")}</a>
                 </nav>
             </header>
             { children }
@@ -58,10 +58,10 @@ export default function Layout({children}){
                             <p>{t("main_page.footer.contact_info.email")} <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
                         </div>
                         <nav className="footer_nav">
-                            <a href="/" className="link">{t("projects_links.home")}</a>
-                            <a href="/layout" className="link">{t("projects_links.layout")}</a>
-                            <a href="/game" className="link">{t("projects_links.game")}</a>
-                            <a href="/app" className="link">{t("projects_links.app")}</a>
+                            <a href="/portfolio/#/" className="link">{t("projects_links.home")}</a>
+                            <a href="/portfolio/#/layout" className="link">{t("projects_links.layout")}</a>
+                            <a href="/portfolio/#/game" className="link">{t("projects_links.game")}</a>
+                            <a href="/portfolio/#/app" className="link">{t("projects_links.app")}</a>
                         </nav>
                     </article>
                     <div className="line"></div>
