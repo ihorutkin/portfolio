@@ -10,29 +10,29 @@ export default function Layout({children}){
     let refGames = useRef(null)
     console.log(location)
 
-    useEffect(() => {
-        console.log("Value layout: ", refLayout.current.pathname)
-        console.log("Value apps: ", refApps.current.pathname)
-        console.log("Value games: ", refGames.current)
-        if(refLayout.current.pathname === location){
-            refLayout.current.classList.add("active")
-        }
-        else{
-            refLayout.current.classList.remove("active")
-        }
-        if(refApps.current.pathname === location){
-            refApps.current.classList.add("active")
-        }
-        else{
-            refApps.current.classList.remove("active")
-        }
-        if(refGames.current.pathname === location){
-            refGames.current.classList.add("active") 
-        }
-        else{
-            refGames.current.classList.remove("active")
-        }
-    })
+    // useEffect(() => {
+    //     console.log("Value layout: ", refLayout.current.pathname)
+    //     console.log("Value apps: ", refApps.current.pathname)
+    //     console.log("Value games: ", refGames.current)
+    //     if(refLayout.current.pathname === location){
+    //         refLayout.current.classList.add("active")
+    //     }
+    //     else{
+    //         refLayout.current.classList.remove("active")
+    //     }
+    //     if(refApps.current.pathname === location){
+    //         refApps.current.classList.add("active")
+    //     }
+    //     else{
+    //         refApps.current.classList.remove("active")
+    //     }
+    //     if(refGames.current.pathname === location){
+    //         refGames.current.classList.add("active") 
+    //     }
+    //     else{
+    //         refGames.current.classList.remove("active")
+    //     }
+    // })
 
     return(
         <>
