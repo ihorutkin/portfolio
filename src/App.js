@@ -8,10 +8,10 @@ import Apps from './pages/apps';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
           <Routes>
             <Route 
-              path='/'
+              path='/portfolio'
               exact
               element={<MainPage />}
             />
