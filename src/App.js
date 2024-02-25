@@ -8,7 +8,7 @@ import Apps from './pages/apps';
 
 function App() {
   return (
-    <Router basename='/' hashType='&'>
+    <Router basename='/'>
           <Routes>
             <Route 
               path='/'
